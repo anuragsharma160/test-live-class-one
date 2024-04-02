@@ -1,0 +1,529 @@
+/* POPPINS FONT FAMILY */
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
+
+* {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 100%;
+  /* font-size: 62.5%; */
+  overflow-x: hidden;
+  /* overflow-y: hidden; */
+}
+
+body {
+  width: 100%;
+  overflow-x: hidden;
+  /* overflow-y: hidden; */
+}
+
+img[class="logo"] {
+  width: 20%;
+}
+
+header {
+  background-color: #4800ff;
+  color: #ffffff;
+  padding: 1% 0 0 2%;
+  position: relative;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  color: #ffffff;
+  width: 50%;
+  width: 60%;
+  margin-left: 50%;
+  margin-left: 40%;
+}
+
+.nav-item-active{
+  background-color: #fff;
+  color: #4800ff;
+  border-radius: 2px;
+  padding: 0.5% 1.5%;
+}
+
+svg{
+  height: 20px;
+  height: 5%;
+}
+
+img[class="header-image"] {
+  width: 35%;
+  width: 40%;
+  height: 100%;
+  position: absolute;
+  right: 0;
+  top: 20%;
+}
+
+.header-text {
+  margin: 5% 0% 5% 0%;
+  display: inline-block;
+  padding: 0;
+}
+
+.header-text p{
+  font-size: 60%;
+}
+
+img[src="./images/Rectangle_12.png"]{
+  width: 7%;
+}
+
+.companies {
+  display: flex;
+  justify-content: space-between;
+  padding: 1% 0 0 2%;
+  width: 60%;
+}
+
+.companies a {
+  text-decoration: none;
+}
+
+.api-heading {
+  font-size: 100%;
+}
+
+.company-items {
+  text-decoration: none;
+}
+
+.api {
+  padding: 1% 0 0 2%;
+  padding: 1% 2% 0 2%;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  gap: 1% ;
+}
+
+.card-active,
+.card {
+  font-size: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 5px;
+  padding: 5%;
+  box-shadow: 1px -1px 1px 1px;
+  box-shadow: 1px -1px 1px 1px;
+  box-shadow: 1px 1px 5px;
+}
+
+.card-logo {
+  width: 20%;
+  width: 40%;
+}
+
+/* .card-head-active,
+.card-head {
+  border: 1px solid greenyellow;
+} */
+
+.card-head-active {
+  color: #4800ff;
+}
+
+/* .card-body {
+  border: 1px solid blue;
+} */
+
+.blog-heading {
+  padding: 1% 0 0 2%;
+  font-size: 50%;
+}
+
+.blog-cards {
+  padding: 1% 0 0 2%;
+  padding: 1% 2% 0 2%;
+  display: flex;
+  justify-content: space-between;
+  gap: 3%;
+}
+
+.blog-card {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr auto;
+  position: relative;
+  width: 100%;
+  box-shadow: 6% 6% 6% 16%;
+  box-shadow: 2px 2px 11px;
+  box-shadow: 1px 1px 5px;
+}
+
+/* .blog-card:nth-child(1){
+  margin-right: 2%;
+}
+
+.blog-card:nth-child(2){
+  margin-left: 2%;
+} */
+
+.blog-content {
+  height: fit-content;
+  margin: 10% auto;
+  position: relative;
+  white-space: nowrap;
+}
+
+.blog-content h3 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.blog-content h6{
+  color: #4800ff;
+}
+
+.blog-content small {
+  width: 100%;
+}
+
+.blog-content br {
+  width: 100%;
+}
+
+.blog-bottom {
+  width: fit-content;
+  position: absolute;
+  left: 60%;
+  bottom: -5px;
+  bottom: -6%;
+  width: 40%;
+}
+
+.blog-author {
+  width: fit-content;
+  white-space: nowrap;
+  position: absolute;
+  bottom: -2px;
+  bottom: -1%;
+  left: 70%;
+}
+
+.blog-bottom img[class="blog-card-bottom-image"] {
+  width: 20%;
+}
+
+.blog-author b {
+  width: fit-content;
+}
+
+img[src="./images/Rectangle.png"] {
+  width: 100%;
+  height: 100%;
+  border-top-left-radius: 20%;
+  border-bottom-left-radius: 8%;
+}
+
+img[src="./images/Rectangle Copy.png"] {
+  width: 100%;
+  border-top-left-radius: 20%;
+  border-bottom-left-radius: 8%;
+  height: 100%;
+}
+
+/* .faq-image{
+  width: 100%;
+} */
+
+.faq-section {
+  display: grid;
+  grid-template-columns: auto auto;
+  padding: 1% 0% 1% 2%;
+  background-color: #c8ccff;
+  background-color: #c8caff;
+  position: relative;
+  margin-top: 5%;
+}
+
+/* .faq-content h4 {
+  border: 1px solid red;
+} */
+
+.faq-content button {
+  margin-top: 2%;
+  background-color: blue;
+  color: #ffffff;
+  border: none;
+  font-size: 80%;
+  width: 30%;
+}
+
+.faq-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: fit-content;
+}
+
+.faq-image {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 30%;
+  height: 100%;
+}
+
+img[src="./images/Rectangle_38-2 (1).png"] {
+  width: 30%;
+  width: 60%;
+  width: 100%;
+  height: 100%;
+}
+
+.download-section {
+  display: flex;
+  justify-content: space-between;
+  padding: 5% 1% 5% 2%;
+  padding: 5% 2%;
+  height: 100%;
+}
+
+.download-content h1 span {
+  color: #808080;
+}
+
+.download-email {
+  width: 50%;
+  height: 100%;
+}
+
+.download-email form{
+  position: relative;
+}
+
+::placeholder {
+  background-color: palegreen;
+  background-color: skyblue;
+  width: 100%;
+  color: red;
+  color: #000000;
+  border-radius: 20px;
+}
+
+input[placeholder] {
+  width: 100%;
+  background-color: #4800ff;
+  background-color: skyblue;
+  border-radius: 20px;
+  border-radius: 2rem;
+  padding: 20px;
+  padding: 10px;
+  padding: 1.5%;
+  border: none;
+  font-size: 90%;
+  font-size: 60%;
+}
+
+.download-email button {
+  background-color: blue;
+  color: #ffffff;
+  border-radius: 30px;
+  position: absolute;
+  right: 4px;
+  bottom: 10%;
+  border: none;
+  font-size: 90%;
+  font-size: 60%;
+  width: 30%;
+  padding: 10px;
+  padding: 1%;
+}
+
+.footer-section {
+  background-color: blue;
+  display: flex;
+  justify-content: space-between;
+  padding: 1% 0% 0% 2%;
+  padding: 4% 4% 4% 4%;
+  padding: 5% 4%;
+}
+
+.footer-left {
+  width: 50%;
+}
+
+.footer-left .list {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  color: #ffffff;
+  font-size: 80%;
+}
+
+.footer-right{
+  position: relative;
+  width: 15%;
+}
+
+.footer-right .footer-right {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.logos-list {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  color: #ffffff;
+  position: relative;
+  right: 20%;
+  margin-top: 15%;
+  width: 120%;
+}
+
+.footer-logos {
+  width: 25%;
+}
+
+/* img[class="footer-logo"] {
+  border: 1px solid seagreen;
+} */
+
+@media screen and (max-width: 480px) {
+  html {
+    font-size: 50%;
+    font-size: 37.5%;
+  }
+
+  .cards{
+    border: 2px solid black;
+  }
+
+  .faq-content h4 {
+    font-size: 5px;
+    font-size: 4px;
+  }
+
+  .blog-content h3{
+    font-size: 5px;
+  }
+
+  .blog-content h6{
+    font-size: 3px;
+    font-size: 4px;
+  }
+
+  .blog-content small{
+    font-size: 4px;
+  }
+
+  .blog-content{
+    margin: 15% auto;
+    margin: 25% auto;
+    margin: 25% auto 40% auto;
+  }
+
+  .faq-content button {
+    width: 30%;
+  }
+
+  .blog-author b{
+    font-size: 5px;
+  }
+
+  .blog-bottom img[class="blog-card-bottom-image"]{
+    width: 30%;
+  }
+
+  .blog-bottom{
+    left: 55%;
+  }
+
+  .blog-author{
+    left: 68%;
+  }
+
+  .footer-left .list {
+    font-size: 4px;
+  }
+
+  img[class="footer-logo"]{
+    width: 40%;
+  }
+
+  .logos-list{
+    font-size: 3px;
+  }
+
+  .header-text p{
+  font-size: 4px;
+  }
+
+}
+
+  @media screen and (min-width: 481px) and (max-width:768px){
+    html{
+      font-size: 62.5%;
+    }
+
+    .faq-content h4{
+      font-size: 7px;
+    }
+
+    .blog-content h3{
+      font-size: 5px;
+      font-size: 6%;
+    }
+  
+    .blog-content h6{
+      font-size: 3px;
+      font-size: 3%;
+    }
+  
+    .blog-content small{
+      font-size: 4px;
+      font-size: 4%;
+    }
+
+    .blog-author b{
+      font-size: 7px;
+    }
+
+    .logos-list{
+      font-size: 40%;
+    }
+  }
+  
+  @media screen and (min-width: 769px) and (max-width: 1068px){
+    html{
+      font-size: 62.5%;
+    }
+
+    .blog-content h3{
+      font-size: 5px;
+      font-size: 6%;
+      font-size: 7%;
+    }
+  
+    .blog-content h6{
+      font-size: 3px;
+      font-size: 3%;
+      font-size: 14%;
+    }
+  
+    .blog-content small{
+      font-size: 4px;
+      font-size: 4%;
+    }
+  }
+
